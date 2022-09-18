@@ -1,0 +1,334 @@
+#root{
+  background-color: black;
+  padding-bottom: 5%;
+  overflow: hidden;
+}
+p{
+  font-family: Roboto,Tahoma,Arial;
+}
+h4{
+  font-family: Roboto,Tahoma,Arial;
+}
+.navbar a img{
+  width: 70%;
+  height: 10%;
+}
+.navbar .collapse{
+  font-weight: bold;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  padding: 0px;
+  padding-left: -55px;
+}
+ .navbar-nav .nav-item  a{
+  color: #fff;
+  width: 150px;
+  padding: 0px;
+  letter-spacing: 0.1ch;
+}
+.navbar-nav .nav-item:hover{
+  background-color: rgba(128, 128, 128, 0.405);
+  padding: 0px;
+  margin: 0px;
+}
+.collapse .navbar-nav{
+  margin-right: 262px;
+}
+.minibtn{
+  width: 150px;
+  color: #fff;
+  margin-right: 5px;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.minibtn img{
+  width: 40px;
+  height: 40px;
+}
+/* ......==========================first page======================================= */
+.header-text h2{
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  padding: 8% 8% 16% 11%;
+}
+.header-text h3{
+  text-align: center;
+  justify-content: center;
+  font-family: Roboto,Tahoma,Arial;
+  color: #FF9800;
+  margin-top: -10%;
+  padding: 0% 10% 4% 12%;
+}
+/* ..........======================================= five card============================================= */
+
+.col-card{
+  margin-left: 20px;
+}
+.col-card h4{
+  margin: 0;
+  font-size: 135%;
+  top: -20%;
+}
+.col-card h5{
+  color: green !important;
+  font-weight: normal;
+}
+.backImg{
+  width: 18%;
+  height: 25%;
+}
+
+.card-end-btn1{
+ /* background-color: #EC1975; */
+ background:linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+ width: 35%;
+ height: 250%;
+ color: #fff;
+ font-size:110%;
+ padding: 1.1%;
+ border-radius: 10px;
+}
+.card-end-btn2{
+  background: linear-gradient( #5c0067 0%, #00d4ff 100%);
+  font-size:110%;
+  height: 250%;
+  width: 35%;
+ color: #fff;
+  padding: 1.1%;
+ border-radius: 10px;
+}
+.circle{
+  width: 15%;
+  height: 20%;
+  color: aliceblue;
+  border-radius: 75%;
+  text-align: center;
+  border: 5px solid #FF9800;
+  -webkit-border-radius: 75%;
+  -moz-border-radius: 75%;
+  -ms-border-radius: 75%;
+  -o-border-radius: 75%;
+}
+.circle div{
+  position: relative;
+  font-size: large;
+  font-size: 30px;
+}
+/* ..............................................  adution ........................... */
+.fa-solid:hover{
+  background-color: slategray;
+}
+/* ....................................... five button .>>>>>>>>>>>>>>>>>>>>>>>>>>>>>......? */
+.thoreumbtn button{
+  background: #167F65;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+  border-radius: 10px;
+ padding: 0px 0px 0px 0px;
+}
+.thoreumbtn button:hover{
+  margin-top: -20px;
+  height: 100%;
+  color: green;
+}
+ .thoreumbtn p{
+    margin-left: -29%;
+    width: 60%;
+ }
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.table >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.  */
+ .box4{
+  margin-top: 50px;
+  background-color: #0A071D;
+  padding-bottom: 6%;
+}
+.box4 .head{
+  font-size: 50px;
+  margin-top: 11%;
+  text-align: center;
+  font-weight: 700;
+}
+.box4 .head img{
+  width: 100px;
+  margin-right: 20px;
+}
+.box4 .table {
+  padding: 10px 150px 10px 150px;
+  text-align: left;
+  color: white;
+  border: none !important ;
+}
+.box4 .table tbody{
+  border: 1px solid white !important;
+}
+.box4 .table tbody tr{
+  border: none !important;
+  background-color: transparent !important;
+}
+.box4 .table tbody tr th{
+  border-right: 1px solid !important;
+}
+.box4 .table tbody tr th:hover{
+  --bs-table-accent-bg: transparent !important;
+}
+.box4 table tbody td img{
+  width: 30px;
+  margin-right: 10px;
+}
+.box4 .table td,tr,th,thead{
+  border: none !important;
+  background: transparent !important;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.>....Mainearth>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.? */
+.earthMain{
+  background-color: rgb(20,14,58);
+  padding-bottom: 5%;
+}
+.earth img{
+    padding: 20% 0% 20% 8%;
+   animation:  xyz 10s infinite;
+    border-radius: 50%;
+    width: 75%;
+    bottom: 0;
+    top: 0;
+    width: 750px;
+    height: 850px;
+}
+/* ???.<<<<,,,,,,,,,,,,,,,,<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Five Feature <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.box-5{
+  background-color: #000000;
+}
+.box-6{
+  background-color: #141523;
+  color: #7f7f7fe6;
+  padding-bottom: 7%;
+  line-height: 5ch;
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+}
+.box-6 div h3{
+  padding-top: 10%;
+}
+.box-6 div p{
+    font-size: 25px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>box-7  CHOOSE LIBERA>>>>>>>>>>>>>>>>>>>>>>>>>>>.. */
+.box-7{
+    background-color: #140E3A;
+    padding-bottom: 10%;
+  }
+.semiBox:hover{
+  background-color: rgb(32,31,58);
+  padding-bottom: 10%;
+  background: linear-gradient(-263deg, #f8acff 0%, #696eff 100% );
+  transform: translate3d(5px, 20px, 0) scale(0.95);
+  border-radius: 10px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>black box >>>>>>>>>>>>>>>>>>>>>>>>>>>>>. */
+.blackbox-8{
+  background-color: #0b0606cf;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  LIBERA BANK >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.box-9{
+  background-color:rgba(68, 49, 174, 0.733);
+  padding: 2%;
+}
+.semibox-9{
+  background-color: #140E3A;
+  padding: 10%;
+}
+.box-9-busd p{
+  font-size: 120%;
+}
+.read-more-box-9 a{
+  text-decoration-line: none;
+  color: #FF8C00;
+}
+.read-more-box-9{
+  margin-top: -56px;
+  font-size: 135%;
+}
+.hand{
+  animation: bounce2 2s ease infinite;
+  -webkit-animation: bounce2 2s ease infinite;
+}
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% { transform: translateY(-50px); -webkit-transform: translateY(-50px); -moz-transform: translateY(-50px); -ms-transform: translateY(-50px); -o-transform: translateY(-50px); }
+	60% { transform: translateY(-50px); -webkit-transform: translateY(-50px); -moz-transform: translateY(-50px); -ms-transform: translateY(-50px); -o-transform: translateY(-50px); }
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.. box-10 >>>>>>>>>>>>>>>>>>>>>>> */
+.blackbox-10{
+  background-color: rgba(76, 41, 41, 0.796);
+}
+        /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> box-11 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>. */
+.box-11{
+  background-color: #140E3A;
+  padding-bottom: 5%;
+}       
+/* ...........>>>>>>>>>>>>>>>>>>>>>>>>>>> box-12 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>/ */
+.box-12{
+  background-color: #000501;
+  padding-bottom: 2%;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> collapseBox >>>>>>>>>>>>>>>>>>>>> */
+.collapseBox{
+  box-sizing: border-box;
+  margin-left: 12%;
+  margin-right: 12%;
+  border: 1px solid #000501;
+  box-shadow:  #000501 4px 3px 5px 1px ;
+}
+.btn{
+  border: none;
+}
+.btn:hover{
+  background-color: #807E88;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.? */
+.textdecoration p a{
+  text-decoration: none;
+  color: #fff;
+}
+.textdecoration p a:hover{
+  color: rgb(238, 13, 201);
+}
+@keyframes xyz{
+100% {
+      transform: rotate(360deg);
+    }
+  }
+@media (max-width:600px) {
+  .box4 .table {
+    padding-left: 50px;
+    overflow-x: scroll;
+    color: white;
+    width: 200%;    
+  }
+  .box4 .table .head{
+    width: 100%;
+  }
+  .hand{
+    display: none;
+  }
+  .earth img{
+    display: none;
+  }
+  .circle{
+    width: 22%;
+  }
+}
